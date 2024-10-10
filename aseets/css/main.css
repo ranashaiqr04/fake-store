@@ -1,0 +1,118 @@
+@import './base.css';
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: black;
+    padding: 20px;
+
+}
+header .row{
+    justify-content: center;
+}
+header .logo{
+    font-size: 30px;
+  
+    color: red;
+}
+.category {
+    background-color: #fff;
+    width: 20%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border:  2px solid red;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.category a {
+    border: 2px black solid;
+    width: 50%;
+    padding: 5px;
+    color: red;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.category a:hover {
+background-color: red;
+color: black;
+cursor: pointer;
+}
+.category .row{
+    justify-content: flex-start;
+    gap: 10px;
+}
+.category{
+    transition: transform 0.3s ease;
+}
+.category:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    
+
+}
+/***********************/
+.products{
+    padding: 20px;
+}
+.products .row{
+    justify-content: center;
+    gap: 18px;
+}
+
+.product
+{
+    width: 25%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+.product:hover
+{
+    transform: scale(1.1); 
+    background-color: rgba(74, 71, 71, 0.407);
+    padding: 20px;
+    cursor: pointer;
+}
+
+.products h2{
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;   
+}
+.product h3:hover{
+    color: red;
+}
+.product span{
+    font-size: 25px;
+    font-weight: 400;
+    color: red;
+}
+.product span:hover{
+    
+    color:black;
+}
+.products img{
+    width: 150px;
+    padding: 10px;
+
+}
+
+/************/
+footer{
+    padding: 10px;
+    background-color: black;
+    color: red;
+}
+footer .row{
+    justify-content: center;
+}
